@@ -128,16 +128,18 @@ table {
   border-spacing: 0;
 }
 
+/* ===== RESET END ===== */
+
 * {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   box-sizing: border-box;
   max-width: 100%;
 }
 
 html,
 body {
-  height: 100%;
   font-family: "Roboto", sans-serif;
+  min-height: 100%;
 }
 
 h1,
@@ -311,3 +313,46 @@ footer nav a {
 }
 
 /* ========== ABOUT PAGE CSS ========== */
+
+section.work-together-section,
+section.about,
+section.explore {
+  margin: 1% 1%;
+}
+
+section.explore {
+  align-items: flex-start;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-between;
+}
+
+section.explore div {
+  margin: 1% 0;
+  width: 48%;
+}
+
+section.explore div img {
+  width: 100%;
+}
+
+section.explore div h3 {
+  margin-top: 1rem;
+}
+
+section.explore div p {
+  margin: 1rem 0;
+}
+
+button.learn-more {
+  border: 1px solid black;
+  border-radius: 10px;
+  display: block;
+  padding: 8px 12px;
+  text-align: center;
+  width: 30%;
+}
+
+button.learn-more:hover {
+  cursor: pointer;
+}
