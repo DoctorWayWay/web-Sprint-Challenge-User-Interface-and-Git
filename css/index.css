@@ -223,6 +223,48 @@ div.container img.jumbo-image {
   justify-content: center;
 }
 
+/* Box Coloring */
+
+.middle-content div.box1 {
+  background-color: teal;
+}
+
+.middle-content div.box2 {
+  background-color: gold;
+}
+
+.middle-content div.box3 {
+  background-color: cadetblue;
+}
+
+.middle-content div.box4 {
+  background-color: coral;
+}
+
+.middle-content div.box5 {
+  background-color: crimson;
+}
+
+.middle-content div.box6 {
+  background-color: forestgreen;
+}
+
+.middle-content div.box7 {
+  background-color: darkorchid;
+}
+
+.middle-content div.box8 {
+  background-color: hotpink;
+}
+
+.middle-content div.box9 {
+  background-color: indigo;
+}
+
+.middle-content div.box10 {
+  background-color: dodgerblue;
+}
+
 /* ===== Bottom Content Section ===== */
 
 .bottom-content {
