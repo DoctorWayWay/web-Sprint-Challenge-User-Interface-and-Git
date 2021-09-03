@@ -86,7 +86,7 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: 0;
+  /* border: 0; */
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -129,7 +129,9 @@ table {
 }
 
 * {
+  border: 1px solid red;
   box-sizing: border-box;
+  max-width: 100%;
 }
 
 html,
@@ -159,20 +161,21 @@ p {
 
 /* ===== Header Section ===== */
 
-div.container header {
-  margin: 5% 0;
-}
-
 div.container header nav {
-  align-items: center;
+  align-items: baseline;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-flow: wrap row;
+  justify-content: space-around;
+  margin: 5% 0;
 }
 
 div.container header a {
   color: black;
   text-decoration: none;
+}
+
+div.container img.jumbo-image {
+  margin: auto;
 }
 
 /* ===== Top Content Section ===== */
