@@ -157,6 +157,26 @@ p {
   margin: 0 auto;
 }
 
+/* ===== Header Section ===== */
+
+div.container header {
+  margin: 5% 0;
+}
+
+div.container header nav {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div.container header a {
+  color: black;
+  text-decoration: none;
+}
+
+/* ===== Top Content Section ===== */
+
 .top-content {
   display: flex;
   flex-wrap: wrap;
@@ -170,6 +190,8 @@ p {
   padding: 0 1%;
   padding-bottom: 20px;
 }
+
+/* ===== Middle Content Section ===== */
 
 .middle-content {
   margin-bottom: 20px;
@@ -198,6 +220,8 @@ p {
   justify-content: center;
 }
 
+/* ===== Bottom Content Section ===== */
+
 .bottom-content {
   display: flex;
   margin: 0 2% 20px;
@@ -211,6 +235,8 @@ p {
 .bottom-content .text-container:last-child {
   padding-right: 0;
 }
+
+/* ===== Footer Section ===== */
 
 footer {
   width: 100%;
@@ -230,3 +256,5 @@ footer nav a {
   color: white;
   text-decoration: none;
 }
+
+/* ========== ABOUT PAGE CSS ========== */
