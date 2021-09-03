@@ -165,7 +165,7 @@ div.container header nav {
   align-items: baseline;
   display: flex;
   flex-flow: wrap row;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 5% 0;
 }
 
@@ -175,7 +175,7 @@ div.container header a {
 }
 
 div.container img.jumbo-image {
-  margin: auto;
+  margin: 0 auto 2% auto;
 }
 
 /* ===== Top Content Section ===== */
