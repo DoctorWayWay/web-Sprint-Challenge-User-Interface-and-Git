@@ -314,6 +314,11 @@ footer nav a {
 
 /* ========== ABOUT PAGE CSS ========== */
 
+section.about {
+  border-bottom: 1px dashed black;
+  padding-bottom: 1.8rem;
+}
+
 section.work-together-section,
 section.about,
 section.explore {
@@ -328,7 +333,9 @@ section.explore {
 }
 
 section.explore div {
+  border-bottom: 1px dashed black;
   margin: 1% 0;
+  padding: 1.8rem 0;
   width: 48%;
 }
 
@@ -345,6 +352,7 @@ section.explore div p {
 }
 
 button.learn-more {
+  background: none;
   border: 1px solid black;
   border-radius: 10px;
   display: block;
@@ -355,4 +363,8 @@ button.learn-more {
 
 button.learn-more:hover {
   cursor: pointer;
+}
+
+section.work-together-section {
+  padding: 1.2rem 0;
 }
